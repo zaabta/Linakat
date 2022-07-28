@@ -1,1 +1,1 @@
-# Linakat
+# Linkat
