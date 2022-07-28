@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(to bottom right , #e9abb1 , #cb808b , #a35c6e ,#162a40 ); */
+
+  /* background: linear-gradient( to bottom right, #5b247a , #1Bcedf ); */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+.animated-text {
+  color: #fff;
+  /* position: absolute; */
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-505, -50);
+  background: white;
+  padding: 0 10px;
+  height: 60px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+  color: #424242;
+  font-family: "Work Sans", sans-serif;
+}
+
+.line {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.line:first-child {
+  animation: a 10s infinite;
+}
+@keyframes a {
+  0% {
+    margin-top: 0px;
+  }
+  16% {
+    margin-top: -60px;
+  }
+  33% {
+    margin-top: -12px;
+  }
+  55% {
+    margin-top: -180px;
+  }
+  66% {
+    margin-top: -120px;
+  }
+  82% {
+    margin-top: -60px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+.text-stable {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Work Sans", sans-serif;
+  padding-right: 15px;
+  
+}
+
+.container-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.home-container2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold{
+  font-size: 80px;
+  display: flex;
+  font-family: "Work Sans", sans-serif;
+  padding-right: 15px;
+
+}
+
+.bold:hover {
+  background: linear-gradient(to bottom right,  #13828c , #3a0e53 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.paragraph{
+  padding: 60px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+h4 {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: #1Bcedf;
+  overflow: hidden;
+  background: linear-gradient(to bottom right,  #13828c , #3a0e53 );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+  font-size: 90px;
+  font-family: "Work Sans", sans-serif;
+}
+
+h4:hover {
+  background-position: 0 100%;
+}

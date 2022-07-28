@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom right, #5b247a, #1bcedf);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home-container {
+  padding: 100px;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  background-color: #f3f3f375;
+  border-radius: 20px;
+}
+.image-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: start;
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+.linkat {
+  height: 10em;
+  width: 10em;
+  margin-top: -4em;
+  padding: 0;
+}
+
+h4 {
+  position: relative;
+  display: inline-block;
+  font-size: 150px;
+  font-weight: 800;
+  color: #1bcedf;
+  overflow: hidden;
+  background: linear-gradient(to right, #5b247a, #1bcedf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+  font-size: 90px;
+  font-family: "Work Sans", sans-serif;
+}
+
+h4:hover {
+  background-position: 0 100%;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+}
+
+.features .feature {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  text-transform: capitalize;
+}
+
+.features .feature .description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+}

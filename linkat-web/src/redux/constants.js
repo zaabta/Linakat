@@ -1,0 +1,38 @@
+//REGISTER USERS
+export const SIGNUP_NEW_USER = "SIGNUP_NEW_USER";
+// AUTH Constants
+export const FETCH_TOKEN = "FETCH_TOKEN";
+export const FETCH_TOKEN_FAILED = "FETCH_TOKEN_FAILED";
+export const TOKEN_REMOVE = "TOKEN_REMOVE";
+export const FETCH_USER = "FETCH_USER";
+export const GET_USERINFO = "GET_USERINFO";
+export const UPDATE_PROFILE = "UPDATE_PROFILE";
+export const UPDATE_PASSWORD = "UPDATE_PASSWORD";
+export const UPDATE_USERNAME = "UPDATE_USERNAME";
+export const UPDATE_EMAIL = "UPDATE_EMAIL";
+export const UPDATE_PROFILEPIC = "UPDATE_PROFILEPIC";
+export const UPDATE_BGPIC = "UPDATE_BGPIC";
+export const DELETE_USER = "DELETE_USER";
+
+//LINK Constants
+export const GET_USERLINKS = "GET_USERLINKS";
+export const REORDER_LINKS = "REORDER_LINKS";
+export const EDIT_LINK = "EDIT_LINK";
+export const DELETE_LINK =  "DELETE_LINK";
+export const GET_LINK_TYPES = "GET_LINK_TYPES";
+export const ADD_NEW_LINK = "ADD_NEW_LINK";
+
+
+//SUBSCRIBES
+export const GET_NEW_SUBSCRIBERS = "GET_NEW_SUBSCRIBERS";
+export const SUBSCRIBED_FAILED = "SUBSCRIBED_FAILED";
+
+// App NotificationS
+export const TOGGLE_NOTIFICATION = "TOGGLE_NOTIFICATION";
+export const TOGGLE_NOTIFICATION_OFF = "TOGGLE_NOTIFICATION_OFF";
+
+// QR 
+export const CREATE_QR_CODE = "CREATE_QR_CODE";
+export const CREATE_QR_FOR_LINKS = "CREATE_QR_FOR_LINKS";
+export const SCAN_QR = "SCAN_QR";
+export const NOT_FOUND = "NOT_FOUND";
